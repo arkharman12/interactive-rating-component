@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Overpass', sans-serif;
+  font-size: 15px;
+  background-color: lightblue;
+}
+
+main.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main.container div.content {
+  background-color: #121417;
+  border-radius: 20px;
+  max-width: 400px;
+  min-height: 400px;
+  padding: 25px;
+}
+
+main.container div.content img {
+  background-color: #252d37;
+  border-radius: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+main.container div.content h1 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+main.container div.content h3 {
+  color: #959eac;
+  margin-bottom: 30px;
+}
+
+main.container div.content div.rating-group {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+main.container div.content div.rating-group button {
+  margin-right: 17px;
+  font-family: 'Overpass', sans-serif;
+  border: none;
+  font-size: 20px;
+  color: #959eac;
+  background-color: #252d37;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+main.container div.content div.rating-group button:focus {
+  background-color: #fb7413;
+  color: white;
+}
+
+main.container div.content div.rating-group button:hover {
+  background-color: #959eac;
+  color: white;
+}
+
+main.container div.content button.submit-btn {
+  font-family: 'Overpass', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #fb7413;
+  border: none;
+  border-radius: 30px;
+  padding: 10px;
+  color: white;
+  min-width: 100%;
+  cursor: pointer;
+}
